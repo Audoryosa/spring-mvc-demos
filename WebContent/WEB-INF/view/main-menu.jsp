@@ -3,7 +3,7 @@
 
 <body>
 
-	<h2>Spring MVC - Home Page</h2>
+	<h2>Hello world!</h2>
 
 </body>
 
