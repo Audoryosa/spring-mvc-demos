@@ -7,6 +7,8 @@
 
 	<p>
 		Go to show form page: <a href="showForm">link</a>
+		<br>
+		<a href="student/showForm">Student form</a>
 	</p>
 </body>
 
