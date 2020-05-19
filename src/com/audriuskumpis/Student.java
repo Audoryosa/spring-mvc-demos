@@ -2,13 +2,21 @@ package com.audriuskumpis;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
-import java.util.Map;
 
 public class Student {
 
 	private String firstName;
 	private String lastName;
+	public String getFavoriteLanguage() {
+		return favoriteLanguage;
+	}
+
+	public void setFavoriteLanguage(String favoriteLanguage) {
+		this.favoriteLanguage = favoriteLanguage;
+	}
+
 	private String country;
+	private String favoriteLanguage;
 	private HashMap<String, String> countryOptions;
 
 	public Student() {
@@ -48,7 +56,5 @@ public class Student {
 	public HashMap<String, String> getCountryOptions() {
 		return countryOptions;
 	}
-	
-	
 	
 }

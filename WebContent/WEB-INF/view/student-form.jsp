@@ -12,7 +12,6 @@
 		<br>
 		Last name: <form:input path="lastName"/>
 		<br>
-		<input type="submit" value="Submit"/>
 		
 		Country:
 		<form:select path="country">
@@ -25,10 +24,18 @@
 			
 			<!-- using hashMap -->
 			<form:options items="${student.countryOptions}"/>
-			
-			<br>
-			<input type="submit" value="Submit"/>
 		</form:select>
+		
+		<br><br>
+		
+		Favourite language: <br>
+		Java <form:radiobutton path="favoriteLanguage" value="Java"/>
+		C# <form:radiobutton path="favoriteLanguage" value="C#"/>
+		PHP <form:radiobutton path="favoriteLanguage" value="PHP"/>
+		Python <form:radiobutton path="favoriteLanguage" value="Python"/>
+		
+		<br>
+		<input type="submit" value="Submit"/>
 		
 	</form:form>
 

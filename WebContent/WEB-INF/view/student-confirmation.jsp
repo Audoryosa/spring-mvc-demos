@@ -7,9 +7,11 @@
 <body>
 	Confirmed student: ${student.firstName} ${student.lastName}
 	
-	<hr>
+	<br>
 	
 	Country: ${student.country}
+	<br>
+	Fav language: ${student.favoriteLanguage}
 </body>
 
 </html>
