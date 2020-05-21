@@ -9,9 +9,9 @@
 <body>
 	<form:form action="processForm" modelAttribute="student"> <!-- modelAttribute same as in Student.java -->
 		First name: <form:input path="firstName"/> <!--  properties -->
-		<br>
+		<br><br>
 		Last name: <form:input path="lastName"/>
-		<br>
+		<br><br>
 		
 		Country:
 		<form:select path="country">
@@ -28,13 +28,20 @@
 		
 		<br><br>
 		
-		Favourite language: <br>
+		Favorite language: <br>
 		Java <form:radiobutton path="favoriteLanguage" value="Java"/>
 		C# <form:radiobutton path="favoriteLanguage" value="C#"/>
 		PHP <form:radiobutton path="favoriteLanguage" value="PHP"/>
 		Python <form:radiobutton path="favoriteLanguage" value="Python"/>
 		
-		<br>
+		<br><br>
+		
+		Operating systems: <br>
+		Linux <form:checkbox path="operatingSystems" value="Linux"/>
+		Mac OS <form:checkbox path="operatingSystems" value="Mac OS"/>
+		MS Windows<form:checkbox path="operatingSystems" value="MS Windows"/>
+		
+		<br><br>
 		<input type="submit" value="Submit"/>
 		
 	</form:form>
